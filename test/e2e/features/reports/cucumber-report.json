@@ -1,0 +1,61 @@
+[
+  {
+    "description": "  As an internet user\n  In order to find out more about the itunes vote cards app\n  I want to be able to search for information about the itunes vote cards app",
+    "elements": [
+      {
+        "id": "searching-for-vote-cards-app;google-search-for-vote-cards-app",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Google search for vote cards app",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search Google for \"itunes vote cards app\"",
+            "result": {
+              "status": "passed",
+              "duration": 2524408963
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/iserdyuchenko/dev/src/own/auth-service-ui/test/e2e/features/step-definitions/google-search-steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see some results",
+            "result": {
+              "status": "passed",
+              "duration": 1068240128
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/iserdyuchenko/dev/src/own/auth-service-ui/test/e2e/features/step-definitions/google-search-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 59283950
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/iserdyuchenko/dev/src/own/auth-service-ui/node_modules/selenium-cucumber-js/runtime/world.js:185"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "searching-for-vote-cards-app",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Searching for vote cards app",
+    "tags": [],
+    "uri": "/home/iserdyuchenko/dev/src/own/auth-service-ui/test/e2e/features/google-search.feature"
+  }
+]
